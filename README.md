@@ -30,6 +30,7 @@ python 3 2048.py
 Combine tiles with the same number to create larger numbers. Try to reach the 2048 tile! 
 🎮### Controls
 | Input | Action |
+|-------|--------|
 | Arrow Keys  (↑ ↓ ← →) | Move tiles in the chosen direction |
 | WASD Keys (W/A/S/D) | Alternative movement controls |
 |Restart button | Start a new game |
