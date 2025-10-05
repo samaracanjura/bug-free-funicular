@@ -108,5 +108,9 @@ Here are pre-tested seeds with known behaviors:
 | Seed | Behavior | Use Case |
 |------|----------|----------|
 | 42 | Balanced gameplay | General testing|
+| 100 | Quick merges possible | Testing merge logic |
+| 500 | Challenging layout | Testing game over detection |
+| 2048 | Favorable spawns | Testing high scores |
+| None | Random (default) | Normal gameplay | 
 
 
