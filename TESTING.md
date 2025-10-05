@@ -30,7 +30,14 @@ python3 2048.py
 The main() function accepts an optional seed parameter: 
 ```python
 def main(window, seed=None):
-    # If seed is provided, use it for deterministic behavior if seed is not None:
+    # If seed is provided, use it for deterministic behavior
     if seed is not None:
         random.seed(seed)
+    # ... rest of game code
 ```
+### Function signature: 
+```python
+main(WINDOW, seed=NONE) # No seed = random
+main(WINDOW, seed=42)   # Seed 42 = deterministic
+```
+
