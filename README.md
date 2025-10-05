@@ -10,7 +10,7 @@ Before running the game, you need to have th following installed:
 1. Set up a virtual environment (recommended):
 ```
 bash
-# Navigate to your project directory
+Navigate to your project directory
 cd Desktop
 # Create a virtual environment
 python 3 - m venv myenv
@@ -21,5 +21,5 @@ source my/bin/activate
    With your virtual environment activated, install pygame:
 ```
 bash
-pip install pygame
+pip `install` pygame
 ```
