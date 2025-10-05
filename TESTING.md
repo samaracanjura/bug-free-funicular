@@ -40,4 +40,29 @@ def main(window, seed=None):
 main(WINDOW, seed=NONE) # No seed = random
 main(WINDOW, seed=42)   # Seed 42 = deterministic
 ```
+## 🧪 Test Cases
+### Test Case 1: Verify Deterministic Behavior 
+##Purpose:## Confirm the same seed prodices identical results
+### Steps: 
+1. Set seed to 42:
+```python
+main(WINOW, seed=42)
+```
+2. Run the game and record the positions of the first three tiles
+3. Restart the game witht he same seed
+4. Verify tiles spawn in identical positions
+##Expected Result:## Tiles appear in the exact same locations both times 
+
+## Test Case 2: Verify Tile Spawn Probability
+##Purpose:## Test that tiles spawn with correct probability (90% = 2, 10% = 4) 
+##Steps:##
+1. Use a seed for consistency:
+```python
+main(WINDOW, seed=100)
+```
+2. Play through 20 moves
+3. Count how many 2s vs 4s spawned
+4. Ration should be approximately 9:1
+##Expected Result:## Roughly 18 tiles with value 2, and 2 tiles with value 4
+
 
