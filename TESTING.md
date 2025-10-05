@@ -26,3 +26,11 @@ if __name__ == "__main__"
 ```bash
 python3 2048.py
 ```
+### Option 2: Pass Seed as Parameter
+The main() function accepts an optional seed parameter: 
+```python
+def main(window, seed=None):
+    # If seed is provided, use it for deterministic behavior if seed is not None:
+    if seed is not None:
+        random.seed(seed)
+```
