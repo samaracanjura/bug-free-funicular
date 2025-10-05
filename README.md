@@ -11,7 +11,7 @@ Before running the game, you need to have th following installed:
 ```bash
 cd Desktop
 
-python 3 - m venv myenv
+python3 - m venv myenv
 
 source my/bin/activate 
 ```
@@ -23,12 +23,12 @@ pip install pygame
 ### Running the Game 
 Make sure your virtuala enviornment is activated, then run: 
 ```bash
-python 3 2048.py
+python3 2048.py
 ```
 ### How to Play 
-🎯### Objective
+### 🎯Objective
 Combine tiles with the same number to create larger numbers. Try to reach the 2048 tile! 
-🎮### Controls
+### 🎮Controls
 | Input | Action |
 |-------|--------|
 | Arrow Keys  (↑ ↓ ← →) | Move tiles in the chosen direction |
