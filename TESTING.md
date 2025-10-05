@@ -3,6 +3,26 @@ This document explains how to rest to test the 2048 game using deterministic see
 
 ## Understanding Seeds
 A **seed** is a number that controls the random number generator, making the game's behavior predictable and repeatable. This is essential for: 
-- ✔️ Testing game logic consistently
-- ✔️ Reproducing and fixing bugs
-- ☑️ 
+- ✅ Testing game logic consistently
+- ✅ Reproducing and fixing bugs
+- ✅ Verifying merge rules work correctly
+- ✅ Grading and evaluation purposes
+
+## How to Provide a Seed 
+### Option 1: Modify the Main Function Call
+1. Open 2048.py in your text editor
+2. Scroll to the bottom of the file
+3. Find this line:
+```python
+if __name__ = "__main__"
+    main(Window)
+```
+4. Change it to include a seed:
+```python
+if __name__ == "__main__"
+    main(WINDOW, seed=42)
+```
+5. Save the file and run:
+```bash
+python3 2048.py
+```
